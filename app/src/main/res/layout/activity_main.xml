@@ -12,6 +12,9 @@
             android:layout_height="wrap_content"
             android:text="Welcome to ALC 4.0"
             android:id="@+id/text"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="32sp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="212dp"
@@ -23,10 +26,11 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/text"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="104dp"
             android:text="About Alc"
             android:background="@android:color/holo_orange_light"
-            app:layout_constraintHorizontal_bias="0.482" android:id="@+id/appCompatButton"/>
+            app:layout_constraintHorizontal_bias="0.482"
+            android:id="@+id/alcBtn"/>
 
 
     <androidx.appcompat.widget.AppCompatButton
@@ -37,7 +41,8 @@
             app:layout_constraintHorizontal_bias="0.482"
             android:layout_marginTop="64dp"
             android:text="My Profile"
+            android:id="@+id/profileBtn"
             android:background="@android:color/holo_orange_light"
-            app:layout_constraintTop_toBottomOf="@+id/appCompatButton"/>
+            app:layout_constraintTop_toBottomOf="@+id/alcBtn"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
