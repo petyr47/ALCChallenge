@@ -11,12 +11,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        title ="AlC 4 Phase 1"
+        title ="ALC 4 Phase 1"
 
 
         alcBtn.setOnClickListener {
             startActivity(Intent(this, WebActivity::class.java))
         }
+
+        profileBtn.setOnClickListener { startActivity(Intent(this, ProfileActvity::class.java)) }
 
 
     }
